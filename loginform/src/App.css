@@ -1,0 +1,208 @@
+.App {
+  /* text-align: center; */
+}
+.Nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px;
+  margin: 0;
+  background-color: rgb(28, 29, 29);
+  
+
+}
+.Nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.Nav li a {
+  color: antiquewhite;
+  padding: 5px;
+  text-decoration: none;
+}
+.Footer{
+  background-attachment: fixed;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(28, 29, 29);
+  color: antiquewhite;
+  width: 100%;
+}
+.signup{
+  
+  margin-left: 30%;
+}
+.inputbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px;
+
+}
+/* Diary.css */
+
+.diary-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.new-note-section,
+.your-notes-section {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+button {
+  background-color: #626262;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #414141;
+}
+
+.note-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
+
+.nav-right{
+  justify-content: right;
+}
+.nav-left{
+  justify-content: left;
+}
+.nav-logo{
+  width: 45px;
+
+  float: left;
+  border-radius: 50%;
+}
+.buttonSup{
+  background-color: rgb(28, 29, 29);
+  color: antiquewhite;
+}
+.buttonSup :hover{
+  background-color: antiquewhite;
+  color: rgb(28, 29, 29);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fabout span{
+  color: rgb(148, 62, 62);
+}
+
+.fabout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  padding-top: 150px;
+}
+.fabout > div {
+  width: 20%;
+}
+.leftsection {
+  font-size: 5rem;
+}
+.rightsection img {
+  width: 120%;
+  overflow: clip;
+}
+.red {
+  color: brown;
+}
+.title {
+  font-size: small;
+}
+.secondsection {
+  background: rgb(234, 234, 234);
+}
+
+.heading {
+  font-size: 3.5rem;
+  color: rgb(32, 32, 32);
+  font-weight: 800;
+  text-align: center;
+}
+
+.abouts{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+
+}
+
+.abouts img{
+  width: 20pc;
+  height: 20pc;
+}
+
+#abouts0{
+  background-color: yellow;
+  width: 100%;
+}
+#abouts1{
+  background-color: rgb(240, 129, 3);
+  width: 100%;
+}
+#abouts2{
+  background-color:rgb(181, 227, 57);
+  width: 100%;
+}
